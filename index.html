@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikshita Nitin Padte - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">DNP</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particles-canvas"></canvas>
+        <div class="ai-widgets">
+            <div class="neural-network">
+                <div class="neuron"></div>
+                <div class="neuron"></div>
+                <div class="neuron"></div>
+                <div class="neuron"></div>
+                <div class="neuron"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="profile-photo-wrapper">
+                <div class="profile-photo-frame">
+                    <img src="profile-photo.jpg" alt="Dikshita Nitin Padte" class="profile-photo" id="profile-photo" onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'200\'%3E%3Crect width=\'200\' height=\'200\' fill=\'%231a1a2e\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dominant-baseline=\'middle\' fill=\'%238b5cf6\' font-size=\'60\' font-family=\'Arial\'%3EDNP%3C/text%3E%3C/svg%3E';">
+                    <div class="photo-glow"></div>
+                </div>
+            </div>
+            <h1 class="hero-name">Dikshita Nitin Padte</h1>
+            <p class="hero-title">Computer Science Graduate | Data Engineer | ML Researcher</p>
+            <div class="ai-stats">
+                <div class="stat-item">
+                    <i class="fas fa-robot"></i>
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-label">AI Projects</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span class="stat-number" data-target="84">0</span>
+                    <span class="stat-label">% Performance Boost</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-code"></i>
+                    <span class="stat-number" data-target="30">0</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+            </div>
+            <div class="hero-contact">
+                <a href="tel:+12136591276" class="contact-item">
+                    <i class="fas fa-phone"></i> (213) 659-1276
+                </a>
+                <a href="mailto:dpadte@usc.edu" class="contact-item">
+                    <i class="fas fa-envelope"></i> dpadte@usc.edu
+                </a>
+                <a href="https://github.com/dikshita-1905" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i> dikshita-1905
+                </a>
+                <a href="https://linkedin.com/in/dikshitapadte" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i> dikshitapadte
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-header">
+                    <h3>University of Southern California, Los Angeles</h3>
+                    <span class="date">Aug 2023 - May 2025</span>
+                </div>
+                <p class="degree">Master of Science in Computer Science</p>
+                <p class="gpa">CGPA: 3.57/4.00</p>
+                <p class="coursework"><strong>Coursework:</strong> Analysis of Algorithms, Database Systems, Deep Learning and its Applications, Applied Natural Language Processing, Machine Learning for Data Science, Security Systems</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Data Engineer Intern</h3>
+                    <span class="company">Amazon</span>
+                    <span class="date">May 2024 - Aug 2024</span>
+                </div>
+                <p class="location">Washington</p>
+                <ul class="experience-list">
+                    <li>Redesigned the database schema into a structured and reliable format using SQL, reducing dependency on multiple joins between temporary tables, which resulted in an <strong>84% improvement in query performance</strong> and a <strong>20% reduction in AWS Redshift cluster load</strong>. This effort supported the Supply Chain Optimization (SCOT) team in inbound visibility analysis.</li>
+                    <li>The project utilized technologies such as SQL, SparkSQL, Apache Hadoop, AWS Lambda, AWS Elastic Cache, AWS Glue, and AWS DynamoDB to enhance data management and accessibility.</li>
+                    <li>Developed ETL pipelines using Datanet and Cradle tools with PySpark, Scala and SQL. This streamlined data processing by performing data validations and quality checks using Pydeequ to ensure data integrity and coverage, as well as anomaly detection through AWS CloudWatch, significantly improving user efficiency by providing teams with a more effective data view.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Graduate Research Assistant</h3>
+                    <span class="company">Computational Neuro-Rehabilitation Laboratory at USC</span>
+                    <span class="date">Jan 2024 - Present</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Spearheaded the predictive analysis of EEG data to predict arm choice before target presentation, utilizing a sophisticated sliding window technique for feature extraction and implementing machine learning models starting with Support Vector Machines (SVM), optimized via GridSearchCV for accuracy.</li>
+                    <li>Explored advanced machine learning algorithms and neural network architectures, including Convolutional Neural Networks (CNNs), to enhance predictive accuracy. Engaged in rigorous model validation and optimization processes, including cross-validation and parameter tuning, to ensure robust and reliable model performance.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Graduate Research Assistant</h3>
+                    <span class="company">Smart Glasses for Visually Impaired People – Mechanical and Aerospace Department, USC</span>
+                    <span class="date">Aug 2024 - Present</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Developing smart glasses for peripheral vision loss using YOLO v8 for object detection, Object Recognition and CNNs, with plans to extend to fully visually impaired users.</li>
+                    <li>Collaborating on publishing the research paper to Nature's Journal for the project under Professor Penkova.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Artificial Intelligence Intern</h3>
+                    <span class="company">SmartKnowers</span>
+                    <span class="date">Mar 2021 - May 2021</span>
+                </div>
+                <p class="location">India</p>
+                <ul class="experience-list">
+                    <li>Developed a real-time model for social distance measurement using advanced Object Detection and Artificial Neural Networks with a team of 5 members. Performed optimization of the model achieving a <strong>34% performance boost</strong>, <strong>68% F-measure rise</strong>, <strong>40% Granularity enhancement</strong>, and <strong>19% Precision improvement</strong> by applying Transfer Learning and Deep Learning methodologies.</li>
+                    <li>Orchestrated deployment on Heroku, garnering substantial traction with 200 daily website visitors, fostering COVID awareness.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Machine Learning Engineer Intern</h3>
+                    <span class="company">Verzeo</span>
+                    <span class="date">Aug 2020 - Oct 2020</span>
+                </div>
+                <p class="location">India</p>
+                <ul class="experience-list">
+                    <li>Applied diverse Big Data Analysis and statistical modeling strategies for Data Collection, Data Mining, Data Preprocessing, and optimization techniques for pioneering an IPL score prediction model that improved accuracy by 20%, later adopted by a sports startup, leading to a <strong>$2 million profit boost</strong> and a <strong>5% individual profit increase</strong>.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Concept Aware Reasoning — Large Language Models</h3>
+                    <span class="project-date">Jan 2024 - May 2024</span>
+                    <ul class="project-list">
+                        <li>Enhanced reasoning capabilities of Large Language Models (LLMs) by mitigating biased associations and improving concept prioritization using Concept-Relationship-Reasoning (CRR) and Natural Language Processing, particularly in common-sense reasoning tasks.</li>
+                        <li>Improved logical consistency and dependability of LLMs in reasoning through Direct Preference Optimization (DPO) fine-tuning, resulting in more accurate and reliable outputs.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h3>Netra: A Frame Descriptor App for Visually Impaired</h3>
+                    <span class="project-date">Jan 2022 - May 2023</span>
+                    <span class="project-badge">Research Paper</span>
+                    <a href="https://github.com/dikshita-1905" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                    <ul class="project-list">
+                        <li>Developed a transformative app empowering the visually impaired using computer vision(OpenCV), leveraging TensorFlow to achieve <strong>85% accuracy</strong> in Image Classification (human, animal, background) and Efficient Det Object Detection (posture, gender, action).</li>
+                        <li>Integrated via Android Studio, featuring torch and focus control, with a voice assistant using Natural Language Processing for text and frame narration, revolutionizing real-time scene perception. In a team, represented the project in the YUKTI-Innovation Challenge.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h3>On-the-ground mapping of informal settlements</h3>
+                    <span class="project-date">Aug 2022 - Dec 2022</span>
+                    <a href="https://github.com/dikshita-1905" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                    <ul class="project-list">
+                        <li>Implemented the YOLOv4 object detection model to identify litter in informal settlements using drone imagery, enhanced image clarity with processing techniques, and developed an automated alert system that improved local cleanliness and health by <strong>10%</strong>.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h3>Real-Time Climate Change Prediction and Temperature Forecasting</h3>
+                    <span class="project-date">Jan 2021 - May 2021</span>
+                    <a href="https://github.com/dikshita-1905" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                    <ul class="project-list">
+                        <li>Achieved <strong>80% accuracy</strong> by optimizing Neural Network models for classification and regression, incorporating Time Series Analysis and data exploration to enhance real-time data integration and model accuracy.</li>
+                        <li>Integrated the model into an app using ML Kit, boosting company profits by <strong>20%</strong> and gaining <strong>40,000 weekly users</strong>, with results communicated via Data Visualization and dashboards.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Widget Section -->
+    <section class="ai-showcase">
+        <div class="container">
+            <div class="ai-widget-grid">
+                <div class="ai-widget-card">
+                    <div class="widget-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="95"></div>
+                    </div>
+                    <p>Deep Learning, Neural Networks, LLMs</p>
+                </div>
+                <div class="ai-widget-card">
+                    <div class="widget-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Engineering</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="90"></div>
+                    </div>
+                    <p>ETL Pipelines, Big Data, Cloud Platforms</p>
+                </div>
+                <div class="ai-widget-card">
+                    <div class="widget-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Computer Vision</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="88"></div>
+                    </div>
+                    <p>Object Detection, Image Classification</p>
+                </div>
+                <div class="ai-widget-card">
+                    <div class="widget-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>NLP</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="85"></div>
+                    </div>
+                    <p>Natural Language Processing, LLMs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages & Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">NOSQL</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Golang</span>
+                        <span class="skill-tag">Ruby</span>
+                        <span class="skill-tag">HiveQL</span>
+                        <span class="skill-tag">SparkSQL</span>
+                        <span class="skill-tag">Pyspark</span>
+                        <span class="skill-tag">Scala</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">PowerShell</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Libraries & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Speech Recognition APIs</span>
+                        <span class="skill-tag">Transfer Learning</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">NLTK</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Caffe</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Numpy</span>
+                        <span class="skill-tag">Large Language Models (LLMs)</span>
+                        <span class="skill-tag">Generalized Linear Model (GLM)</span>
+                        <span class="skill-tag">Gradient Boosting Machine (GBM)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Software & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Snowflake</span>
+                        <span class="skill-tag">Microsoft Excel</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Informatica</span>
+                        <span class="skill-tag">ODI</span>
+                        <span class="skill-tag">SSIS</span>
+                        <span class="skill-tag">BODI</span>
+                        <span class="skill-tag">Datastage</span>
+                        <span class="skill-tag">Databricks</span>
+                        <span class="skill-tag">AWS Redshift</span>
+                        <span class="skill-tag">AWS EMR</span>
+                        <span class="skill-tag">AWS S3</span>
+                        <span class="skill-tag">AWS Kinesis</span>
+                        <span class="skill-tag">HIVE</span>
+                        <span class="skill-tag">Hadoop</span>
+                        <span class="skill-tag">Spark</span>
+                        <span class="skill-tag">Microsoft Azure</span>
+                        <span class="skill-tag">Google Cloud Platform (GCP)</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">SAS</span>
+                        <span class="skill-tag">ETL Tools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dikshita Nitin Padte. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:dpadte@usc.edu"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/dikshita-1905" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/dikshitapadte" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
